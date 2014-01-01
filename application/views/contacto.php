@@ -1,6 +1,8 @@
 <div class="page page-contacto">
 	<div class="box-breadcrumb">
-		<div class="text-breadcrumb"> <span>Home</span> / <strong>Contacto</strong> </div>
+		<div class="container">
+			<div class="text-breadcrumb"> <span>Home</span> / <strong>Contacto</strong> </div>
+		</div> 
 	</div>
 	<div class="box-content container">
 		<div class="box-info-contacto"> 

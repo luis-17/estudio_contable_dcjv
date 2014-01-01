@@ -14,6 +14,6 @@ class Mision extends CI_Controller {
         	'blog'=> NULL,
         	'contacto'=> NULL
         );
-		$this->load->template('contacto',$data);
+		$this->load->template('mision',$data);
 	}
 }

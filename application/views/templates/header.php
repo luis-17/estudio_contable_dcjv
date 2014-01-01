@@ -45,7 +45,7 @@
 			<div class="container">
 		  	<div class="box-header-primary">
 		    		<div class="box-logo">
-		    			<a href="./"> <img src="<?php echo base_url('assets/images/logo.png'); ?>" /> </a>
+		    			<a href="<?php echo site_url(); ?>"> <img src="<?php echo base_url('assets/images/logo.png'); ?>" /> </a>
 		    		</div>
 		    		<div class="box-menu">
 		    			<nav class="box-nav-menu collapse navbar-collapse">
@@ -59,19 +59,19 @@
 								</div>
 		      			<ul class="box-list-menu">
 		      				<li class="box-item">
-		      					<a href="#"> Inicio </a>
+		      					<a href="<?php echo site_url(); ?>"> Inicio </a>
 		      				</li>
 		      				<li class="box-item">
 		      					<a href="#"> Nosotros <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
 		      					<ul class="box-list-submenu">
 		      						<li class="box-subitem">
-		      							<a href="#"> Quienes Somos </a>
+		      							<a href="<?php echo site_url('quienes'); ?>"> Quienes Somos </a>
 		      						</li>
 		      						<li class="box-subitem">
-		      							<a href="#"> Misión </a>
+		      							<a href="<?php echo site_url('mision'); ?>"> Misión </a>
 		      						</li>
 		      						<li class="box-subitem">
-		      							<a href="#"> Visión </a>
+		      							<a href="<?php echo site_url('vision'); ?>"> Visión </a>
 		      						</li>
 		      					</ul> 
 		      				</li>
@@ -79,7 +79,7 @@
 		      					<a href="#"> Servicios <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
 		      					<ul class="box-list-submenu">
 		      						<li class="box-subitem">
-		      							<a href="#"> Outsourcing Contable </a>
+		      							<a href="<?php echo site_url('servicio/servicio/outsourcing-contable'); ?>"> Outsourcing Contable </a>
 		      						</li>
 		      						<li class="box-subitem">
 		      							<a href="#"> Asesoría MYPE </a>

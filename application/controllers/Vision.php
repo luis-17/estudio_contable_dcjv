@@ -14,6 +14,6 @@ class Vision extends CI_Controller {
         	'blog'=> NULL,
         	'contacto'=> NULL
         );
-		$this->load->template('contacto',$data);
+		$this->load->template('vision',$data);
 	}
 }

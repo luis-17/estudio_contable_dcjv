@@ -3,7 +3,9 @@
 ?> 
 <div class="page page-mision">
 	<div class="box-breadcrumb">
-		<div class="text-breadcrumb"> <span>Home</span> / <span>Nosotros</span> / <strong>Misión</strong> </div>
+		<div class="container">
+			<div class="text-breadcrumb"> <span>Home</span> / <span>Nosotros</span> / <strong>Misión</strong> </div>
+		</div>
 	</div>
 	<div class="box-content container">
 		

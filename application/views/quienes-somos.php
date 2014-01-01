@@ -3,7 +3,9 @@
 ?> 
 <div class="page page-quienes-somos">
 	<div class="box-breadcrumb">
-		<div class="text-breadcrumb"> <span>Home</span> / <span>Nosotros</span> / <strong>¿Quienes Somos?</strong> </div>
+		<div class="container">
+			<div class="text-breadcrumb"> <span>Home</span> / <span>Nosotros</span> / <strong>¿Quienes Somos?</strong> </div>
+		</div>
 	</div>
 	<div class="box-content container">
 		

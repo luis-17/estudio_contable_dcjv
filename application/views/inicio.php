@@ -27,25 +27,25 @@
     </div>
     <div class="owl-item">
       <figure class="item item-2 box-style-one">
-          <img src="assets/images/gallery/gallery-02.jpg" alt="image description">
-          <figcaption>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-7 col-sm-10 col-xs-12 pull-right -contenido">
-                  <h1>Asesoría contable de calidad</h1>
-                  <h2>Garantizada</h2> 
-                  <div class="box-description">
-                    <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi
-                        aliquip ex ea commodo consequat aute irure dolor in sprehen.</p>
-                  </div>
-                  <div class="box-actions">
-                    <a class="vc-btn btn-primary" href="#"><span>Contáctanos</span></a> 
-                  </div>
+        <img src="assets/images/gallery/gallery-02.jpg" alt="image description">
+        <figcaption>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-sm-10 col-xs-12 pull-right -contenido">
+                <h1>Asesoría contable de calidad</h1>
+                <h2>Garantizada</h2> 
+                <div class="box-description">
+                  <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi
+                      aliquip ex ea commodo consequat aute irure dolor in sprehen.</p>
+                </div>
+                <div class="box-actions">
+                  <a class="vc-btn btn-primary" href="#"><span>Contáctanos</span></a> 
                 </div>
               </div>
             </div>
-          </figcaption>
-        </figure>
+          </div>
+        </figcaption>
+      </figure>
     </div>
   </div>
 </section>

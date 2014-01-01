@@ -498,22 +498,22 @@ a:hover, a:focus, a:active{
     font-size: 24px;
     padding: 12px;
     font-weight: 300;
-    margin-left: 10%;
+    display: inline;
     background-color: rgba(255,255,255,0.45);
 }
-.page-detalle-servicio .box-info{
+.page .box-info{
     display: flex;
     align-items: center;
 }
-.page-detalle-servicio .box-info-text{
+.page .box-info-text{
     font-size: 18px;
     font-weight: 300;
     padding: 28px 48px;
 }
-.page-detalle-servicio .box-info-text h1{
+.page .box-info-text h1{
     margin-bottom: 30px;
 }
-.page-detalle-servicio .box-info-image img{
+.page .box-info-image img{
     width: 480px;
 }
 /* CONTACTO */

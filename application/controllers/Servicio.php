@@ -7,15 +7,6 @@ class Servicio extends CI_Controller {
         parent::__construct();
         
     }
-	public function index()
-	{
-		$data['active'] = array(
-        	'faq'=> NULL,
-        	'blog'=> NULL,
-        	'contacto'=> NULL
-        );
-		$this->load->template('servicio',$data);
-	}
     public function servicio($alias)
     {
         $data['active'] = array(
