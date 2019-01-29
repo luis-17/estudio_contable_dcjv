@@ -45,7 +45,7 @@
 			<div class="container">
 		  	<div class="box-header-primary">
 		    		<div class="box-logo">
-		    			<a href="./"> <img src="<?php echo base_url('assets/images/logo_color_tr.png'); ?>" /> </a>
+		    			<a href="./"> <img src="<?php echo base_url('assets/images/logo.png'); ?>" /> </a>
 		    		</div>
 		    		<div class="box-menu">
 		    			<nav class="box-nav-menu collapse navbar-collapse">
