@@ -62,7 +62,7 @@
 		      					<a href="#"> Inicio </a>
 		      				</li>
 		      				<li class="box-item">
-		      					<a href="#"> Nosotros <img src="assets/icons/arrow-down-32.png"/> </a>
+		      					<a href="#"> Nosotros <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
 		      					<ul class="box-list-submenu">
 		      						<li class="box-subitem">
 		      							<a href="#"> Quienes Somos </a>
@@ -73,11 +73,24 @@
 		      						<li class="box-subitem">
 		      							<a href="#"> Visión </a>
 		      						</li>
-		      					</ul>
-		      					
+		      					</ul> 
 		      				</li>
 		      				<li class="box-item">
-		      					<a href="#"> Servicios </a>
+		      					<a href="#"> Servicios <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
+		      					<ul class="box-list-submenu">
+		      						<li class="box-subitem">
+		      							<a href="#"> Outsourcing Contable </a>
+		      						</li>
+		      						<li class="box-subitem">
+		      							<a href="#"> Asesoría MYPE </a>
+		      						</li>
+		      						<li class="box-subitem">
+		      							<a href="#"> Constitución de Empresa </a>
+		      						</li>
+		      						<li class="box-subitem">
+		      							<a href="#"> Servicio de Auditoría </a>
+		      						</li>
+		      					</ul>
 		      				</li>
 		      				<li class="box-item">
 		      					<a href="#"> Clientes </a> 
