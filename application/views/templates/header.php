@@ -41,7 +41,7 @@
 	  		</div>
 	  	</div>
   	</div>
-		<div class="box-content-header-secondary">
+	<div class="box-content-header-secondary">
 			<div class="container">
 		  	<div class="box-header-primary">
 		    		<div class="box-logo">
@@ -90,5 +90,5 @@
 		    		</div>
 		  	</div>
 		  </div>
-	  </div>
+	 </div>
   </header> 
