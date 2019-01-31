@@ -104,6 +104,7 @@ a:hover, a:focus, a:active{
     padding: 0 20px;
     position: relative;
     height: 49px;
+    display: flex;
 }
 .box-header .box-header-primary{
 	 -webkit-transition: all 0.4s ease 0s;
@@ -169,7 +170,11 @@ a:hover, a:focus, a:active{
     transform: rotate(40deg);
 }
 .box-header .box-header-secondary .box-header-info{
-	float: right;
+	/*float: right;*/
+    flex-grow: 1;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
 }
 .box-header .box-header-secondary .box-header-info .box-item{
 	float: left;
@@ -512,9 +517,13 @@ a:hover, a:focus, a:active{
 }
 .page .box-info-text h1{
     margin-bottom: 30px;
+    margin-top: 0;
 }
 .page .box-info-image img{
     width: 480px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: white;
 }
 /* CONTACTO */
 
@@ -524,6 +533,9 @@ a:hover, a:focus, a:active{
     background-color: #29282e;    
     padding: 50px 150px;
     color: #c3c1ca;
+}
+.section-footer a{
+    color: #c3c1ca; 
 }
 .section-footer > .box-content{
     display: flex;

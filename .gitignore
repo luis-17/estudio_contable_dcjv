@@ -7,8 +7,6 @@
 */cache/!.htaccess
 application/config/config.php
 application/config/database.php
-scripts/config.js
-assets/img/dinamic/*
 
 # Windows image file caches
 Thumbs.db

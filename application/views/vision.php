@@ -12,7 +12,7 @@
 		<div class="box-info"> 
 			
 			<div class="box-info-image"> 
-				<img src="<?php echo base_url('assets/images/Vision.jpg'); ?>" />
+				<img src="<?php echo base_url('assets/images/vision.jpg'); ?>" />
 			</div> 
 			<div class="box-info-text">
 				<h1> Visión </h1> 

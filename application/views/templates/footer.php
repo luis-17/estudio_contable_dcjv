@@ -50,7 +50,7 @@
 	          <i class="fa fa-phone"></i> 945 142 588 / 704-3855 
 	        </div>
 	        <div class="box-correo">
-	          <i class="fas fa-envelope"></i> informes@dcyjvasociados.com 
+	          <a href="mailto:informes@dcyjvasociados.com"> <i class="fas fa-envelope"></i> informes@dcyjvasociados.com </a>
 	        </div> 
 	      </div>
 	    </div>

@@ -65,7 +65,7 @@
 		      					<a href="#"> Nosotros <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
 		      					<ul class="box-list-submenu">
 		      						<li class="box-subitem">
-		      							<a href="<?php echo site_url('quienes'); ?>"> Quienes Somos </a>
+		      							<a href="<?php echo site_url('quienes-somos'); ?>"> Quienes Somos </a>
 		      						</li>
 		      						<li class="box-subitem">
 		      							<a href="<?php echo site_url('mision'); ?>"> Misión </a>
@@ -79,7 +79,7 @@
 		      					<a href="#"> Servicios <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
 		      					<ul class="box-list-submenu">
 		      						<li class="box-subitem">
-		      							<a href="<?php echo site_url('servicio/servicio/outsourcing-contable'); ?>"> Outsourcing Contable </a>
+		      							<a href="<?php echo site_url('servicio/outsourcing-contable'); ?>"> Outsourcing Contable </a>
 		      						</li>
 		      						<li class="box-subitem">
 		      							<a href="#"> Asesoría MYPE </a>

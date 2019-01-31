@@ -52,3 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Inicio';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// other customs 
+$route['quienes-somos'] = 'quienes/index';
+
+$route['servicio/(:any)'] = 'servicio/servicio/$1';
