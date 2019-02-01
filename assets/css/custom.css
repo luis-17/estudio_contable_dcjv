@@ -306,6 +306,9 @@ a:hover, a:focus, a:active{
     height: 1px;
 }
 
+.box-header .box-nav-menu li.-active > a:after{
+    width: 100%;
+}
 .box-header .box-nav-menu li:hover > a:after{ 
 	width: 100%;
 }
@@ -524,6 +527,13 @@ a:hover, a:focus, a:active{
     border: 1px solid #ddd;
     padding: 5px;
     background-color: white;
+}
+
+.box-maps > div{ 
+    height: 320px;
+}
+a{
+    color: #484848; 
 }
 /* CONTACTO */
 

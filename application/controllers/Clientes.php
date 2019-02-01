@@ -1,7 +1,7 @@
-<?php
+000<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Inicio extends CI_Controller {
+class Clientes extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
@@ -9,16 +9,13 @@ class Inicio extends CI_Controller {
     }
 	public function index()
 	{
-        $data['arrServicios'] = $this->model_servicio->cargar_servicios(); 
-        $data['activeSelected'] = 'inicio'; 
 		$data['active'] = array(
-            'inicio'=> '-active',
+            'inicio'=> NULL,
             'nosotros'=> NULL,
             'servicios'=> NULL,
-            'clientes'=> NULL,
+            'clientes'=> '-active',
             'contacto'=> NULL
         );
-		$this->load->template('inicio',$data);
+		$this->load->template('cliente',$data);
 	}
-
 }

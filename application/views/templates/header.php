@@ -1,4 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<?php 
+	$arrServicios = $this->model_servicio->cargar_servicios(); 
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -42,26 +45,26 @@
 	  	</div>
   	</div>
 	<div class="box-content-header-secondary">
-			<div class="container">
+		<div class="container">
 		  	<div class="box-header-primary">
-		    		<div class="box-logo">
-		    			<a href="<?php echo site_url(); ?>"> <img src="<?php echo base_url('assets/images/logo.png'); ?>" /> </a>
-		    		</div>
-		    		<div class="box-menu">
-		    			<nav class="box-nav-menu collapse navbar-collapse">
-		    				<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
+	    		<div class="box-logo">
+	    			<a href="<?php echo site_url(); ?>"> <img src="<?php echo base_url('assets/images/logo.png'); ?>" /> </a>
+	    		</div>
+	    		<div class="box-menu">
+	    			<nav class="box-nav-menu collapse navbar-collapse">
+	    				<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
 		      			<ul class="box-list-menu">
-		      				<li class="box-item">
-		      					<a href="<?php echo site_url(); ?>"> Inicio </a>
+		      				<li class="box-item <?php echo $active['inicio']; ?>">
+		      					<a href="<?php echo site_url('inicio'); ?>"> Inicio </a>
 		      				</li>
-		      				<li class="box-item">
+		      				<li class="box-item <?php echo $active['nosotros']; ?>">
 		      					<a href="#"> Nosotros <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
 		      					<ul class="box-list-submenu">
 		      						<li class="box-subitem">
@@ -75,33 +78,26 @@
 		      						</li>
 		      					</ul> 
 		      				</li>
-		      				<li class="box-item">
+		      				<li class="box-item <?php echo $active['servicios']; ?>">
 		      					<a href="#"> Servicios <img src="<?php echo base_url('assets/icons/arrow-down-32.png'); ?>"/> </a>
-		      					<ul class="box-list-submenu">
-		      						<li class="box-subitem">
-		      							<a href="<?php echo site_url('servicio/outsourcing-contable'); ?>"> Outsourcing Contable </a>
+		      					<ul class="box-list-submenu"> 
+		      						<?php foreach($arrServicios as $key => $row) { ?> 
+		      						<li class="box-subitem"> 
+		      							<a href="<?php echo site_url('servicio/'.$row['alias']); ?>"> <?php echo $row['nombre']; ?> </a>
 		      						</li>
-		      						<li class="box-subitem">
-		      							<a href="#"> Asesoría MYPE </a>
-		      						</li>
-		      						<li class="box-subitem">
-		      							<a href="#"> Constitución de Empresa </a>
-		      						</li>
-		      						<li class="box-subitem">
-		      							<a href="#"> Servicio de Auditoría </a>
-		      						</li>
+		      						<?php } ?> 
 		      					</ul>
 		      				</li>
-		      				<li class="box-item">
-		      					<a href="#"> Clientes </a> 
+		      				<li class="box-item <?php echo $active['clientes']; ?>">
+		      					<a href="<?php echo site_url('clientes'); ?>"> Clientes </a> 
 		      				</li>
-		      				<li class="box-item">
-		      					<a href="#"> Contáctanos </a>
+		      				<li class="box-item <?php echo $active['contacto']; ?>">
+		      					<a href="<?php echo site_url('contactanos'); ?>"> Contáctanos </a>
 		      				</li>
 		      			</ul>
-		    			</nav>
-		    		</div>
+	    			</nav>
+	    		</div>
 		  	</div>
-		  </div>
+	  	</div>
 	 </div>
-  </header> 
+</header> 

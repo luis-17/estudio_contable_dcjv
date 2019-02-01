@@ -55,26 +55,28 @@
     <h3> NUESTROS SERVICIOS </h3>
   </div>
   <div class="box-content">
-    <div id="dcjv-servicios" class="owl-carousel">
+    <div id="dcjv-servicios" class="owl-carousel"> 
+      <?php foreach($arrServicios as $key => $row) { ?> 
       <div class="owl-item">
         <div class="box-servicio">
           <div class="box-img">
-            <img alt="" src="assets/images/services/outsourcing-contable.jpg" />
+            <img alt="" src="assets/images/services/<?php echo $row['foto']; ?>" />
           </div>
           <div class="box-info">
             <div class="box-info-title">
-              OUTSOURCING CONTABLE 
+              <?php echo $row['nombre']; ?>
             </div>
             <div class="box-info-description">
-              Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen.
+              <?php echo $row['descripcion']; ?>
             </div>
             <div class="box-action">
-              <a class="vc-btn -white" href="#"><span> VER MÁS </span></a> 
+              <a class="vc-btn -white" href="<?php echo site_url('servicio/'.$row['alias']); ?>"> <span> VER MÁS </span> </a> 
             </div>
           </div>
         </div>
       </div>
-      <div class="owl-item">
+      <?php } ?>
+      <!-- <div class="owl-item">
         <div class="box-servicio">
           <div class="box-img">
             <img alt="" src="assets/images/services/asesoria.jpg" />
@@ -127,7 +129,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

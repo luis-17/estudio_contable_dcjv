@@ -9,10 +9,13 @@ class Vision extends CI_Controller {
     }
 	public function index()
 	{
+        $data['activeSelected'] = 'nosotros'; 
 		$data['active'] = array(
-        	'faq'=> NULL,
-        	'blog'=> NULL,
-        	'contacto'=> NULL
+            'inicio'=> NULL,
+            'nosotros'=> '-active',
+            'servicios'=> NULL,
+            'clientes'=> NULL,
+            'contacto'=> NULL
         );
 		$this->load->template('vision',$data);
 	}
