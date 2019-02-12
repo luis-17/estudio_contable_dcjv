@@ -183,6 +183,10 @@ a:hover, a:focus, a:active{
     position: relative;
     display: flex;
 }
+.box-header .box-header-secondary .box-header-info .box-item.box-rs{
+    right: 2%;
+    position: absolute;
+}
 
 .box-header .box-header-secondary .box-header-info .box-item .box-icon{
 	padding-right: 6px;
@@ -190,6 +194,10 @@ a:hover, a:focus, a:active{
 
 .box-header .box-header-secondary .box-header-info .box-item .box-icon svg{
 	font-size: 20px;
+}
+.box-header .box-header-secondary .box-header-info .box-item.box-rs .box-icon svg{
+    font-size: 24px;
+    color: white;
 }
 /* HEADER PRIMARY */
 .box-header .box-header-primary{

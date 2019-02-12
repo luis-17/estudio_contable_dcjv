@@ -70,6 +70,18 @@
 <script type="text/javascript" src="<?php echo base_url('libs/owl-carousel/owl.carousel.min.js'); ?>"></script>
 
 <!-- Include js plugin -->
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c6336d66cb1ff3c14cc3933/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>

@@ -30,15 +30,16 @@
 	    		<div class="box-header-info">
 	    			<div class="box-item box-telefono">
 	    				<div class="box-icon"> <i class="fa fa-phone"></i> </div> 
-	    				<div class="box-value"> +51 945 142 588 </div>
+	    				<div class="box-value"> (01) 945 142 588 </div>
 	    			</div>
 	    			<div class="box-item box-direccion">
 	    				<div class="box-icon"> <i class="fa fa-map-marker"></i> </div> 
 	    				<div class="box-value"> Av. Gran Chimú 1421 Urb. Zárate </div>
 	    			</div>
-	    			<div class="box-item box-horario">
-	    				<div class="box-icon"> <i class="fa fa-clock"></i> </div> 
-	    				<div class="box-value"> Lun. a Sab. 9am - 5:30pm </div>
+	    			<div class="box-item box-rs">
+	    				<a href="https://www.facebook.com/profile.php?id=100012277215574" target="_blank"> 
+		    				<div class="box-icon"> <i class="fab fa-facebook"></i> </div> 
+	    				</a> 
 	    			</div>
 	    		</div>
 	  		</div>
