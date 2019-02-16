@@ -24,35 +24,35 @@
 				</div>
 			<?php } ?> 
 			<div class="box-info-contacto col-lg-5 col-sm-5 col-md-12 col-xs-12"> 
-				<div class="box-direccion">
+				<div class="box-item box-direccion">
 					<div class="box-title-direccion">
-						<h2> Oficina Principal </h2>
+						<h4> Oficina Principal </h4>
 					</div>
-					<div class="box-content-direccion">
+					<div class="box-item-value box-content-direccion">
 						<i class="fa fa-map-marker"></i> Av. Gran Chimú 1421 Urb. Zárate S.J.L. 
 					</div> 
 				</div>
-				<div class="box-horario">
+				<div class="box-item box-horario">
 					<div class="box-title-horario">
-						<h2> Horario de Atención </h2>
+						<h4> Horario de Atención </h4>
 					</div>
-					<div class="box-content-horario">
+					<div class="box-item-value box-content-horario">
 						<i class="fa fa-clock"></i> Lun. a Sab. 9am - 5:30pm 
 					</div> 
 				</div>
-				<div class="box-telefono">
+				<div class="box-item box-telefono">
 					<div class="box-title-telefono">
-						<h2> Teléfonos </h2>
+						<h4> Teléfonos </h4>
 					</div>
-					<div class="box-content-telefono">
-						<i class="fa fa-phone"></i> 945 142 588 / 704-3855  
+					<div class="box-item-value box-content-telefono">
+						<i class="fa fa-phone"></i> (01) 945 142 588 / (01) 704-3855 
 					</div> 
 				</div>
-				<div class="box-correo">
+				<div class="box-item box-correo">
 					<div class="box-title-correo">
-						<h2> Email </h2>
+						<h4> Email </h4>
 					</div>
-					<div class="box-content-correo">
+					<div class="box-item-value box-content-correo">
 						<a href="mailto:informes@dcyjvasociados.com"> <i class="fas fa-envelope"></i> informes@dcyjvasociados.com </a>
 					</div> 
 				</div>
@@ -78,10 +78,10 @@
 					<button type="submit" class="btn btn-default">ENVIAR</button>
 				</form>
 			</div>
-		</div>
-		<div class="box-maps"> 
-			<div id="map-dcjv"></div> 
-		</div>
+		</div> 
+	</div>
+	<div class="box-maps"> 
+		<div id="map-dcjv"></div> 
 	</div>
 </div>
 <script type="text/javascript"> 

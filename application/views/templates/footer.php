@@ -47,7 +47,7 @@
 	          <i class="fa fa-clock"></i> Lun. a Sab. 9am - 5:30pm
 	        </div>
 	        <div class="box-telefono">
-	          <i class="fa fa-phone"></i> 945 142 588 / 704-3855 
+	          <i class="fa fa-phone"></i> (01) 945 142 588 / (01) 704-3855 
 	        </div>
 	        <div class="box-correo">
 	          <a href="mailto:informes@dcyjvasociados.com"> <i class="fas fa-envelope"></i> informes@dcyjvasociados.com </a>

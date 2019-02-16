@@ -510,6 +510,18 @@ a:hover, a:focus, a:active{
     padding-top: 8%;
     padding-bottom: 8%;
 }
+.page.page-contacto > .box-content{ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+} 
+.page.page-contacto .box-formulario button{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 45px;
+    background-color: #2a3991;
+    color: white;
+}
 .page .box-breadcrumb .text-breadcrumb{
     font-size: 24px;
     padding: 12px;
@@ -544,7 +556,17 @@ a{
     color: #484848; 
 }
 /* CONTACTO */
-
+.page-contacto .box-info-contacto .box-item{
+    margin-bottom: 20px;
+}
+.page-contacto .box-info-contacto .box-item h4{ 
+    margin: 0;
+    padding-bottom: 5px;
+}
+.page-contacto .box-info-contacto .box-item .box-item-value, .page-contacto .box-info-contacto .box-item .box-item-value a{
+    font-size: 20px;
+    color: #00a7e0;
+}
 
 /* FOOTER */
 .section-footer{ 

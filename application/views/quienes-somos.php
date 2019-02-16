@@ -15,7 +15,7 @@
 				<img src="<?php echo base_url('assets/images/quienes-somos.jpg'); ?>" />
 			</div> 
 			<div class="box-info-text">
-				<h1> ¿Quienes Somos? </h1> 
+				<h1> QUIENES SOMOS </h1> 
 				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. 
 				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna.
 			</div>
