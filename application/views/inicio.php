@@ -17,7 +17,7 @@
                         aliquip ex ea commodo consequat aute irure dolor in sprehen.</p>
                   </div>
                   <div class="box-actions">
-                    <a class="vc-btn" href="#"><span>Contáctanos</span></a> 
+                    <a class="vc-btn" href="<?php echo site_url('contactanos'); ?>"><span>Contáctanos</span></a> 
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@
                       aliquip ex ea commodo consequat aute irure dolor in sprehen.</p>
                 </div>
                 <div class="box-actions">
-                  <a class="vc-btn btn-primary" href="#"><span>Contáctanos</span></a> 
+                  <a class="vc-btn btn-primary" href="<?php echo site_url('contactanos'); ?>"><span>Contáctanos</span></a> 
                 </div>
               </div>
             </div>

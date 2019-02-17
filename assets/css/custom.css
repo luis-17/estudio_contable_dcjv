@@ -586,10 +586,13 @@ a{
 .page-contacto .box-info-contacto .box-item h4{ 
     margin: 0;
     padding-bottom: 5px;
+    color: #00a7e0;
+    text-decoration: underline;
+    font-weight: bold;
 }
 .page-contacto .box-info-contacto .box-item .box-item-value, .page-contacto .box-info-contacto .box-item .box-item-value a{
     font-size: 20px;
-    color: #00a7e0;
+    color: #2a3991;;
 }
 .page-contacto .box-content > .row{
     display: flex;
@@ -605,6 +608,19 @@ a{
     background-color: #00a7e0;
     color: white;
 }
+
+.page-contacto .box-content-telefono{
+    display: flex;
+    align-items: center;
+}
+.page-contacto .box-content-telefono .phone-detail{
+    padding-left: 6px;
+    text-align: center;
+}
+.page-contacto .box-item svg{
+    margin-right: 10px;
+}
+
 /* FOOTER */
 .section-footer{ 
     background-color: #29282e;    

@@ -45,7 +45,12 @@
 						<h4> Teléfonos </h4>
 					</div>
 					<div class="box-item-value box-content-telefono">
-						<i class="fa fa-phone"></i> (01) 945 142 588 / (01) 945 566 144 / (01) 704-3855 / (01) 620-6134 
+						<i class="fa fa-phone"></i> 
+						<div class="phone-detail">
+							<div>(01) 945 142 588 / (01) 945 566 144 </div>
+							<div> (01) 704-3855 / (01) 620-6134 </div> 
+						</div>
+						
 					</div> 
 				</div>
 				<div class="box-item box-correo">
