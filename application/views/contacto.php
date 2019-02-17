@@ -11,14 +11,14 @@
 		<div class="row">
 			<?php if( $this->session->flashdata('bool_info') == 'ok' ){ ?>
 				<div class="col-lg-12">
-					<div class="info-success">
+					<div class="alert alert-success">
 						Envío satisfactorio, en seguida nos comunicaremos con Ud. 
 					</div>
 				</div>
 			<?php } ?>
 			<?php if( $this->session->flashdata('bool_info') == 'error' ){ ?>
 				<div class="col-lg-12">
-					<div class="info-danger">
+					<div class="alert alert-danger">
 						Ocurrió un error, inténtelo nuevamente. 
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 						<h4> Teléfonos </h4>
 					</div>
 					<div class="box-item-value box-content-telefono">
-						<i class="fa fa-phone"></i> (01) 945 142 588 / (01) 704-3855 
+						<i class="fa fa-phone"></i> (01) 945 142 588 / (01) 945 566 144 / (01) 704-3855 / (01) 620-6134 
 					</div> 
 				</div>
 				<div class="box-item box-correo">

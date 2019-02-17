@@ -7,8 +7,7 @@
 			<div class="text-breadcrumb"> <span>Home</span> / <span>Servicios</span> / <strong><?php echo $fServicio['nombre']; ?></strong> </div>
 		</div>
 	</div>
-	<div class="box-content container">
-		
+	<div class="box-content container"> 
 		<div class="box-info"> 
 			<div class="box-info-text">
 				<h1> <?php echo $fServicio['nombre']; ?> </h1> 

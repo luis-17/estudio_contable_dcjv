@@ -510,18 +510,7 @@ a:hover, a:focus, a:active{
     padding-top: 8%;
     padding-bottom: 8%;
 }
-.page.page-contacto > .box-content{ 
-    padding-top: 5%;
-    padding-bottom: 5%;
-} 
-.page.page-contacto .box-formulario button{
-    margin: auto;
-    display: block;
-    width: 200px;
-    height: 45px;
-    background-color: #2a3991;
-    color: white;
-}
+
 .page .box-breadcrumb .text-breadcrumb{
     font-size: 24px;
     padding: 12px;
@@ -555,9 +544,44 @@ a:hover, a:focus, a:active{
 a{
     color: #484848; 
 }
+
+
+.page.page-detalle-servicio h1{ 
+    text-transform: uppercase;    
+} 
+
+/* CLIENTES */
+.page.page-cliente > .box-content{ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+} 
+.page.page-cliente h1{
+    text-align: center;
+    padding-bottom: 28px;
+}
+.page.page-cliente .box-client{
+    margin-bottom: 15px;
+}
+.page.page-cliente .box-client .box-img{ 
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
 /* CONTACTO */
 .page-contacto .box-info-contacto .box-item{
     margin-bottom: 20px;
+}
+.page.page-contacto > .box-content{ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+} 
+.page.page-contacto .box-formulario button{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 45px;
+    background-color: #2a3991;
+    color: white;
 }
 .page-contacto .box-info-contacto .box-item h4{ 
     margin: 0;
@@ -567,7 +591,20 @@ a{
     font-size: 20px;
     color: #00a7e0;
 }
-
+.page-contacto .box-content > .row{
+    display: flex;
+    align-items: center;
+}
+.page-contacto .alert{
+    text-align: center;
+    font-weight: bold;
+}
+.page-contacto form{
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #00a7e0;
+    color: white;
+}
 /* FOOTER */
 .section-footer{ 
     background-color: #29282e;    
