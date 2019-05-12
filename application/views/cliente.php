@@ -14,21 +14,21 @@
 			<div class="col-lg-3">
 				<div class="box-client">
 					<div class="box-img">
-						<img src="<?php echo base_url('assets/images/clientes/cliente-demo.png'); ?>" alt="Cliente Demo" /> 
+						<img src="<?php echo base_url('assets/images/clientes/cliente-cocinas-equipos.png'); ?>" alt="Cocinas y Equipos" /> 
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3">
 				<div class="box-client">
 					<div class="box-img">
-						<img src="<?php echo base_url('assets/images/clientes/cliente-demo.png'); ?>" alt="Cliente Demo" /> 
+						<img src="<?php echo base_url('assets/images/clientes/cliente-yate.png'); ?>" alt="Tours MyG" /> 
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-3">
 				<div class="box-client">
 					<div class="box-img">
-						<img src="<?php echo base_url('assets/images/clientes/cliente-demo.png'); ?>" alt="Cliente Demo" /> 
+						<img src="<?php echo base_url('assets/images/clientes/cliente-medicion.png'); ?>" alt="IMPROMET" /> 
 					</div>
 				</div>
 			</div>

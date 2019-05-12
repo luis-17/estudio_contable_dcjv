@@ -565,6 +565,11 @@ a{
 .page.page-cliente .box-client .box-img{ 
     text-align: center;
     border: 1px solid #e0e0e0;
+    height: 200px;
+    display: flex;
+}
+.page.page-cliente .box-client .box-img img{
+    margin: auto;
 }
 
 /* CONTACTO */
