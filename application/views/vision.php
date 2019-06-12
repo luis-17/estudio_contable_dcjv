@@ -16,8 +16,7 @@
 			</div> 
 			<div class="box-info-text">
 				<h1> VISIÓN </h1> 
-				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. 
-				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna.
+				Ofrecer a nuestros clientes la mejor atención profesional en nuestras distintas áreas de servicios, dándoles confianza, lealtad, seguridad en los problemas que se les presentan en su actividad diaria laboral.
 			</div>
 		</div>
 	</div>

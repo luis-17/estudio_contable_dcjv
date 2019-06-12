@@ -16,8 +16,13 @@
 			</div> 
 			<div class="box-info-text">
 				<h1> QUIENES SOMOS </h1> 
-				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. 
-				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna.
+				Somos una Compañía con experiencia, Dedicada a la Consultoría Contable, Tributaria, Financiera y Laboral, creada para atender todos los requerimientos de pequeñas, medianas y grandes empresas; de empresarios en general, profesionales y ejecutivos.
+				<br><br>
+				Nuestra consultora ofrece servicios de alta especialización en el contexto de un modelo integral único de análisis, planificación financiera, tributaria, legal, estructurado para empresas y empresarios
+				<br><br>
+				Contamos con un experimentado equipo de profesionales que entregan experiencia e innovación permanente para que nuestros clientes tomen decisiones correctas y oportunas, construyendo el futuro que aspiran.
+				<br><br>
+				Nuestra propuesta de valor incluye una extensa gama de servicios para empresas y empresarios que abarca todas las necesidades dentro de los ámbitos de la asesoría tributaria, financiera, legal, y de resguardo patrimonial. 
 			</div>
 		</div>
 	</div>

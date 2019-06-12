@@ -16,8 +16,7 @@
 			</div> 
 			<div class="box-info-text">
 				<h1> MISIÓN </h1> 
-				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. 
-				Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim veniam quis nostrud exercitation laboris nisi aliquip ex ea commodo consequat aute irure dolor in sprehen. Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna.
+				Posicionarnos en lo más alto del mercado peruano como la empresa más confiable de mejor atención al público dentro de los servicios contables que prestamos.
 			</div>
 		</div>
 	</div>
