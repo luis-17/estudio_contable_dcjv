@@ -24,7 +24,7 @@ class Contacto extends CI_Controller {
                 $this->session->set_flashdata('bool_info', 'error');
             }
             $this->envioCorreo($arrData); 
-            // redirect('/contactanos'); 
+            redirect('/contactanos'); 
             exit(); 
         }else{
             $data['active'] = array( 
